@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de usuario</title>
+</head>
+<body>
+    <header>
+        <h1>Registrarse</h1>
+    </header>
+
+    <main>
+        <section>
+            <article>
+                <form action="#" method="post">
+                    <label for="nombre">Nombre</label>
+                    <input type="text" name="nombre" id="nombre">
+                </form>
+            </article>
+            <article>
+                <form action="#" method="post">
+                    <label for="apellido">Apellido</label>
+                    <input type="text" name="apellido" id="apellido">
+                </form>
+            </article>
+            <article>
+                <form action="#" method="post">
+                    <label for="mail">E-mail</label>
+                    <input type="email" name="mail" id="mail">
+                </form>
+            </article>
+            <article>
+                <form action="#" method="post">
+                    <label for="nombredeusuario">Nombre de usuario</label>
+                    <input type="text" name="nombredeusuario" id="nombredeusuario">
+                </form>
+            </article>
+            <article>
+                <form action="#" method="post">
+                    <label for="pass">Contraseña</label>
+                    <input type="text" name="pass" id="pass">
+                </form>
+            </article>
+            <article>
+                <form action="#" method="post">
+                    <label for="repetirpass">Repetir contraseña</label>
+                    <input type="text" name="repetirpass" id="repetirpass">
+                </form>
+            </article>
+        </section>
+        <section>
+            <article>
+                <form action="#" method="post">
+                    <label for="metododepago">Método de pago</label>
+                    <br>
+                    <input type="radio" name="metododepago" id="tarjeta_de_credito" value="tarjeta_de_credito">Tarjeta de crédito
+                    <br>
+                        <form action="#" method="post">
+                            <input type="number" name="numerodetarjeta" id="numerodetarjeta">
+                            <input type="number" name="codigo" id="codigo">
+                        </form>
+                    <input type="radio" name="metododepago" id="cupon_de_pago" value="cupon_de_pago">Cupón de pago
+                        <form action="#" method="post">
+                            <input type="checkbox" name="pagofacil" id="pagofacil" value="pagofacil"> <label for="pagofacil">Pago fácil</label>
+                            <input type="checkbox" name="rapipago" id="rapipago" value="rapipago"> <label for="rapipago">RapiPago</label>
+                        </form>
+                    <input type="radio" name="metododepago" id="tranferencia_bancaria" value="transferencia_bancaria">Tranferencia bancaria
+                        <p>CBU: 0011810811650178402106</p>
+                </form>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+
+    </footer>
+
+</body>
+</html>
