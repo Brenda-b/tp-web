@@ -1,3 +1,49 @@
+.header-style {
+
+    
+    background-color: #3c3c3ccc;
+    width: 100%;
+    font-size: xx-large;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.body-basic{
+    display: flex;
+    align-items: center;
+    background-image: url("../img/imagen-principal.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+}
+.forms {
+    color:aqua;
+    align-items: center;
+
+}
+.header-logos{
+
+}
+.home {
+    background-position: center;
+    text-align: center;
+    border-radius: 2%;
+    font-size: large;
+    display: flex;
+    height: calc(100vh - 70px);
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+
+    
+    width: 80%;
+    border-style: solid;
+    border-color: white;
+    border-width: 5px;
+    
+    
+  }
 *{
     margin: 0;
     padding: 0;
