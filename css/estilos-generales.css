@@ -23,7 +23,8 @@
 
 }
 .header-logos{
-
+        /*contenido para cuando decidamos el logo*/
+        display: flex;
 }
 .home {
     background-position: center;
