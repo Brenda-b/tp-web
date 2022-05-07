@@ -4,19 +4,24 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TRABAJO PRÁCTICO-DESARROLLO WEB</title>
+    <title>Pochoclear</title>
     <link rel="stylesheet" href="css/estilos-generales.css" type="text/css">
 </head>
 <body class="body-basic">
     <main>
-        <header class="header-style">
+        <header>
             <nav>
-                <a href="pindex.html" style="padding: 0.25%">NombreDeLaPagina</a>
+                <div class="banner">
+                    <img src="./img/banner-pochoclos.jpeg" class="img-banner">
+                </div>
+                <div class="title-center-banner">
+                    <h1>Pochoclear</h1>
+                </div>
             </nav>
             
         </header>
         
-        <div class="home">
+        <section class="home">
             
             <div class="forms">
             
@@ -28,13 +33,17 @@
                     <label for="contraseña">Contraseña</label>
                     <input type="password" name="contraseña" id="contraseña">
                 </form>
-                <a href="../tp/pantalla-principal.html">Iniciar sesión</a>
+    
+                <a href="./pantalla-principal.html" class="sign-in">Iniciar sesión</a>
+                
             </div>
-            <div>
-                <a href="../tp-web/recuperacion-de-contraseña.html" target="_blank">Recuperar contraseña</a>
-                <a href="../tp-web/registro-de-usuario.html" target="_blank">Registrarse</a>
+            <div class="btn">
+                <a href="./recuperacion-de-contraseña.html">Recuperar contraseña</a>
             </div>
-        </div> 
+            <div class="btn">  
+                <a href="./registro-de-usuario.html">Registrarse</a>
+            </div>
+        </section> 
     </main>
    
     <footer>
